@@ -1,0 +1,14 @@
+{
+    "Globals": {
+    },
+    "Profiles": {
+        "template": {
+            "memory_pool": "./my_mpools/stm32n6-npu-merged_STM32N6570-DK_template.mpool",
+            "options" : "--enable-epoch-controller -O3 --all-buffers-info --cache-maintenance --Oauto-sched --native-float --enable-virtual-mem-pools --Omax-ca-pipe 4 --Ocache-opt --Os"
+        },
+        "split2": {
+            "memory_pool": "./my_mpools/stm32n6-npu-merged_STM32N6570-DK_split2.mpool",
+            "options" : "--enable-epoch-controller -O3 --all-buffers-info --cache-maintenance --Oauto-sched --native-float --enable-virtual-mem-pools --Omax-ca-pipe 4 --Ocache-opt --Os"
+        }
+    }
+}

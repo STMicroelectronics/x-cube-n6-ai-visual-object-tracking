@@ -1,0 +1,52 @@
+# Release Notes for Ai Postprocessing Wrapper
+
+## Purpose
+
+The Ai Postprocessing Wrapper is made to be used with the lib_vision_models_pp.
+It allows to simplify the usage of it in the use case of app using multiple types of post processing.
+
+## Update history
+
+### v1.1.1 / August 2026
+
+Visual Object Tracking (LightTrack-M implementation) support
+Use `postprocessing_config.h`
+
+### v1.1.0 / April 2026
+
+Add `POSTPROCESS_WRAPPER_SECTION` macro to allow placement of post-processing buffers in a user-defined memory section
+Automatic ordering of model outputs by size and shape to improve robustness against output index changes
+
+### v1.0.10 / January 2026
+
+Yolo-D object detection support
+New SSD object detection support
+
+### v1.0.9 / January 2026
+
+Yunet face detection with keypoints support
+Compatibility with STAI API
+
+### v1.0.8 / September 2025
+
+BlazeFace face detection with keypoints support
+
+### v1.0.7 / August 2025
+
+BlazeFace post processing bug fix
+
+### v1.0.6 / July 2025
+
+Add int8 post processing support for:
+- Object detection Yolo v2
+- Object detection Yolo v8
+- Object detection ST Yolo X
+- Single pose estimation Movenet
+- Multi pose estimation Yolo v8
+- Semantic segmentation Deeplab v3
+
+Add support for BlazeFace post processing
+
+### v1.0.2 / April 2025
+
+Initial Release
